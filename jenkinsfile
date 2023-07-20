@@ -4,7 +4,7 @@ pipeline {
     stages {
       stage(vcs) {
         steps {
-                git branch:"main",url:"https://github.com/ramesh1469/game-of-life.git"
+                git branch:"main",url:"https://github.com/ramesh1469/ramanna.git"
         }
        stage(build) {
          steps {
