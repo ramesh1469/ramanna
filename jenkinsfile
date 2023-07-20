@@ -1,5 +1,5 @@
 pipeline {
-    agent { lable: "terraform" }
+    agent { lable: "gol" }
     triggers { pollSCM('* * * * *') }
     stages {
       stage(vcs) {
